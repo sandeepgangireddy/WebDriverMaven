@@ -27,6 +27,7 @@ public class LoginTest {
 			driver.get("https://gmail.com");
 			driver.findElement(By.id("Email")).sendKeys("sandeepg8081@gmail.com");
 			driver.findElement(By.id("Passwd")).sendKeys("sdfsdf");
+			driver.findElement(By.id("SignIn")).click();
 			
 		}
 
