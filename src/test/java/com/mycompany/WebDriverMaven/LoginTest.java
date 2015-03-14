@@ -29,7 +29,7 @@ public class LoginTest {
 			driver.findElement(By.id("Passwd")).sendKeys("sdfsdf");
 			driver.findElement(By.id("SignIn")).click();
 			
-			//added new comments - more & More
+			//added new comments - more & More & more
 			
 		}
 
