@@ -27,9 +27,9 @@ public class LoginTest {
 			driver.get("https://gmail.com");
 			driver.findElement(By.id("Email")).sendKeys("sandeepg8081@gmail.com");
 			driver.findElement(By.id("Passwd")).sendKeys("sdfsdf");
-			driver.findElement(By.id("SignIn")).click();
+			driver.findElement(By.id("signIn")).click();
 			
-			//added new comments - more & More & more
+			//added new comments - Fixed sign in issue
 			
 		}
 
